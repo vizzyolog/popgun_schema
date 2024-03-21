@@ -5,4 +5,8 @@ import (
 )
 
 //go:embed user_schema
-var UserSchema string
+var userSchema string
+
+func UserSchema() string {
+	return userSchema
+}
