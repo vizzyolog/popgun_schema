@@ -1,12 +1,9 @@
 {
   "type": "record",
-  "name": "UserEvent",
-  "namespace": "com.yourcompany.user",
+  "name": "Example",
   "fields": [
-    {"name": "PublicID", "type": "string"},
-    {"name": "UserName", "type": "string"},
-    {"name": "Role", "type": "string"},
-    {"name": "CreatedAT","type":"string"},
-    {"name": "UpdatedAT","type":"string"}
+    {"name": "Id", "type": "string"},
+    {"name": "Type", "type": "string"},
+    {"name": "Data", "type": "string"}
   ]
 }
