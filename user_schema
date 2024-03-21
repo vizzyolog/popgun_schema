@@ -6,13 +6,7 @@
     {"name": "PublicID", "type": "string"},
     {"name": "UserName", "type": "string"},
     {"name": "Role", "type": "string"},
-    {
-      "name": "CreatedAT",
-      "type": {"type": "long", "logicalType": "timestamp-millis"}
-    },
-    {
-      "name": "UpdatedAT",
-      "type": {"type": "long", "logicalType": "timestamp-millis"}
-    }
+    {"name": "CreatedAT","type":"string"},
+    {"name": "UpdatedAT","type":"string"}
   ]
 }
